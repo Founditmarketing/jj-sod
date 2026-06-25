@@ -141,6 +141,9 @@ document.querySelectorAll('.et_animated,.et-waypoint,.et_pb_animation_top,.et_pb
 <style>
 .et_animated:not(.et_had_animation),.et-waypoint:not(.et_had_animation){opacity:0;visibility:visible;}
 .et_animated.et_had_animation,.et-waypoint.et_had_animation{opacity:1;visibility:visible;}
+.et_pb_preload>div{visibility:visible!important;}
+.et_pb_section_video_bg{visibility:visible!important;}
+.et_pb_section_video_bg video{width:100%;height:100%;object-fit:cover;}
 @keyframes etFadeIn{from{opacity:0}to{opacity:1}}
 @keyframes etSlideTop{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
 @keyframes etSlideBottom{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
